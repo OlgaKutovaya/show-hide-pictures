@@ -1,0 +1,22 @@
+body {
+    margin: 30px;
+}
+
+.wrapper {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pict {
+    margin: 5px;
+    border: 10px solid #4a281d;
+    width: 300px;
+    height: 330px;
+    box-shadow: 1px 1px 5px 0 #381f17;
+}
+
+.pict:hover {
+    cursor: pointer;
+}
